@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px 50px;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.header .profile-pic img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.header .information {
+    padding: 20px 40px;
+}
+
+.header .information .handle {
+    margin: 0 0 20px;
+    font-weight: lighter;
+}
+
+.header .information .followers {
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.header .information .followers li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header .information .followers li:first-child {
+    padding-left: 0;
+}
+
+.header .information .description {
+    font-weight: lighter;
+}
+
+/* PICTURES */
+.pics {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pics .pic {
+    width: 32%;
+    padding: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.pics .pic img {
+    max-width: 100%;
+}
+
+footer {
+    padding: 40px 30px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
